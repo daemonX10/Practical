@@ -16,6 +16,11 @@ public class Main{
         if ((rear + 1) % size == front) {
             System.out.println("Queue is full");
         } else {
+            // The code `if (front == -1) front = 0;` is checking if the front pointer of the circular
+            // queue is at its initial value of -1. If it is, it means that the queue is empty and we
+            // need to set the front pointer to 0 to indicate that the queue now has an element. This
+            // is necessary because in a circular queue, the front and rear pointers wrap around to the
+            // beginning of the array when they reach the end.
             if (front == -1)
                 front = 0;
             rear = (rear + 1) % size;
