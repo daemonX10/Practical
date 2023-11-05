@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "me_nonres",
+            "request": "launch",
+            "mainClass": "me_nonres",
+            "projectName": "java practice_d0c303a0"
+        },
+        {
+            "type": "java",
+            "name": "me_restoring",
+            "request": "launch",
+            "mainClass": "me_restoring",
+            "projectName": "java practice_d0c303a0"
+        },
+        {
+            "type": "java",
             "name": "nonrestoring",
             "request": "launch",
             "mainClass": "nonrestoring",
