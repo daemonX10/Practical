@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "nonrestoring",
+            "request": "launch",
+            "mainClass": "nonrestoring",
+            "projectName": "java practice_d0c303a0"
+        },
+        {
+            "type": "java",
+            "name": "restoring",
+            "request": "launch",
+            "mainClass": "restoring",
+            "projectName": "java practice_d0c303a0"
+        },
+        {
+            "type": "java",
+            "name": "booth",
+            "request": "launch",
+            "mainClass": "booth",
+            "projectName": "java practice_d0c303a0"
+        }
+    ]
+}
